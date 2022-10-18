@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-15T05:27:50Z" name="Default suite" finished-at="2022-10-15T05:28:43Z" duration-ms="53234">
+    <groups>
+    </groups>
+    <test started-at="2022-10-15T05:27:50Z" name="Default test" finished-at="2022-10-15T05:28:43Z" duration-ms="53234">
+      <class name="TestNgSession.AmazonTest1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:27:50Z" name="setUp" finished-at="2022-10-15T05:28:10Z" duration-ms="20515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pageTitleTest()[pri:1, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:10Z" name="pageTitleTest" finished-at="2022-10-15T05:28:12Z" duration-ms="2360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:12Z" name="tearDown" finished-at="2022-10-15T05:28:14Z" duration-ms="1075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:14Z" name="setUp" finished-at="2022-10-15T05:28:29Z" duration-ms="15967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchTest()[pri:2, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:29Z" name="searchTest" finished-at="2022-10-15T05:28:30Z" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:30Z" name="tearDown" finished-at="2022-10-15T05:28:30Z" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:30Z" name="setUp" finished-at="2022-10-15T05:28:42Z" duration-ms="11742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoTest()[pri:3, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:42Z" name="logoTest" finished-at="2022-10-15T05:28:42Z" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:42Z" name="tearDown" finished-at="2022-10-15T05:28:43Z" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNgSession.AmazonTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
