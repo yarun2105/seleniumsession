@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="tests" name="Failed suite [Testng Regression test]" guice-stage="DEVELOPMENT" verbose="10">
-  <test thread-count="3" parallel="tests" name="Amazon test(failed)" verbose="10">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="https://www.amazon.com"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.AmazonTest">
+      <class name="uatIndieWeb.Tests.IndieWebTestcasesWiseExecution">
         <methods>
-          <include name="searchTest"/>
-          <include name="pageTitleTest"/>
-          <include name="logoTest"/>
-          <include name="tearDown"/>
+          <include name="verifySelectBirthYearFromCalenderTest"/>
+          <include name="verifyEnterPanTest"/>
           <include name="setUp"/>
-        </methods>
-      </class> <!-- TestCases.AmazonTest -->
-    </classes>
-  </test> <!-- Amazon test(failed) -->
-  <test thread-count="3" parallel="tests" name="OpenCart test(failed)" verbose="10">
-    <parameter name="browser" value="edge"/>
-    <parameter name="url" value="https://naveenautomationlabs.com/opencart/index.php?route=account/login"/>
-    <classes>
-      <class name="TestCases.OpenCartTest">
-        <methods>
-          <include name="searchTest"/>
-          <include name="pageTitleTest"/>
+          <include name="clickOnOtpSubmitCTATest"/>
+          <include name="verifyClickOnPanSubmitCTATest"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="verifyInputDOBAtAdhaarScreenTest"/>
         </methods>
-      </class> <!-- TestCases.OpenCartTest -->
+      </class> <!-- uatIndieWeb.Tests.IndieWebTestcasesWiseExecution -->
     </classes>
-  </test> <!-- OpenCart test(failed) -->
-</suite> <!-- Failed suite [Testng Regression test] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

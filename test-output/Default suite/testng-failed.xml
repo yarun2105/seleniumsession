@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.OpenCartTest">
+      <class name="uatIndieWeb.Tests.IndieWebTestcasesWiseExecution">
         <methods>
+          <include name="verifySelectBirthYearFromCalenderTest"/>
+          <include name="verifyEnterPanTest"/>
           <include name="setUp"/>
+          <include name="clickOnOtpSubmitCTATest"/>
+          <include name="verifyClickOnPanSubmitCTATest"/>
           <include name="tearDown"/>
-          <include name="pageTitleTest"/>
+          <include name="verifyInputDOBAtAdhaarScreenTest"/>
         </methods>
-      </class> <!-- TestCases.OpenCartTest -->
+      </class> <!-- uatIndieWeb.Tests.IndieWebTestcasesWiseExecution -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

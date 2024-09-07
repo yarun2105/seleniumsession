@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [tests]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="uatIndieWeb.ExtentReportsListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="WebCarausalScreenTest(failed)" verbose="4">
+    <classes>
+      <class name="uatIndieWeb.Tests.IndieWebTestcasesWiseExecution">
+        <methods>
+          <include name="verifyInputAdhaarfield1Test"/>
+          <include name="verifySelectBirthYearFromCalenderTest"/>
+          <include name="verifyEnterPanTest"/>
+          <include name="setUp"/>
+          <include name="clickOnOtpSubmitCTATest"/>
+          <include name="tearDown"/>
+          <include name="verifyInputAdhaarfield2Test"/>
+          <include name="verifyInputDOBAtAdhaarScreenTest"/>
+        </methods>
+      </class> <!-- uatIndieWeb.Tests.IndieWebTestcasesWiseExecution -->
+    </classes>
+  </test> <!-- WebCarausalScreenTest(failed) -->
+</suite> <!-- Failed suite [tests] -->

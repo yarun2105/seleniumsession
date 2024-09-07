@@ -1,49 +1,511 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="38" passed="33" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-15T05:27:50Z" name="Default suite" finished-at="2022-10-15T05:28:43Z" duration-ms="53234">
+  <suite started-at="2024-08-18T15:49:33Z" name="Default suite" finished-at="2024-08-18T15:54:05Z" duration-ms="271812">
     <groups>
     </groups>
-    <test started-at="2022-10-15T05:27:50Z" name="Default test" finished-at="2022-10-15T05:28:43Z" duration-ms="53234">
-      <class name="TestNgSession.AmazonTest1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:27:50Z" name="setUp" finished-at="2022-10-15T05:28:10Z" duration-ms="20515" status="PASS">
+    <test started-at="2024-08-18T15:49:33Z" name="Default test" finished-at="2024-08-18T15:54:05Z" duration-ms="271812">
+      <class name="uatIndieWeb.Tests.IndieWebTestcasesWiseExecution">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:33Z" name="setUp" finished-at="2024-08-18T15:49:55Z" duration-ms="21934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="pageTitleTest()[pri:1, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:10Z" name="pageTitleTest" finished-at="2022-10-15T05:28:12Z" duration-ms="2360" status="PASS">
+        <test-method signature="clickContactCTATest()[pri:1, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:55Z" name="clickContactCTATest" finished-at="2024-08-18T15:49:56Z" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:12Z" name="tearDown" finished-at="2022-10-15T05:28:14Z" duration-ms="1075" status="PASS">
+        </test-method> <!-- clickContactCTATest -->
+        <test-method signature="getSupportIndieEmailidTest()[pri:2, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:56Z" name="getSupportIndieEmailidTest" finished-at="2024-08-18T15:49:56Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSupportIndieEmailidTest -->
+        <test-method signature="closeContactUsPopUpTest()[pri:3, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:56Z" name="closeContactUsPopUpTest" finished-at="2024-08-18T15:49:56Z" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContactUsPopUpTest -->
+        <test-method signature="letsGetStartedCTATest()[pri:4, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:56Z" name="letsGetStartedCTATest" finished-at="2024-08-18T15:49:56Z" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- letsGetStartedCTATest -->
+        <test-method signature="navigationToEnterPhoneNumberScreenTest()[pri:5, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:56Z" name="navigationToEnterPhoneNumberScreenTest" finished-at="2024-08-18T15:49:57Z" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationToEnterPhoneNumberScreenTest -->
+        <test-method signature="getTextValidationTest()[pri:6, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:57Z" name="getTextValidationTest" finished-at="2024-08-18T15:49:57Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTextValidationTest -->
+        <test-method signature="enterPhoneNumberTest()[pri:7, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:57Z" name="enterPhoneNumberTest" finished-at="2024-08-18T15:49:57Z" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPhoneNumberTest -->
+        <test-method signature="clickReferralLinkCTATest()[pri:8, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:57Z" name="clickReferralLinkCTATest" finished-at="2024-08-18T15:49:57Z" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReferralLinkCTATest -->
+        <test-method signature="validateTextAtReferralPopUpTest()[pri:9, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:57Z" name="validateTextAtReferralPopUpTest" finished-at="2024-08-18T15:49:57Z" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTextAtReferralPopUpTest -->
+        <test-method signature="enterReferralCodeTest()[pri:10, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:57Z" name="enterReferralCodeTest" finished-at="2024-08-18T15:49:57Z" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterReferralCodeTest -->
+        <test-method signature="clickReferralSubmitCTATest()[pri:11, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:57Z" name="clickReferralSubmitCTATest" finished-at="2024-08-18T15:49:58Z" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickReferralSubmitCTATest -->
+        <test-method signature="getAepsConsentTextTest()[pri:12, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:58Z" name="getAepsConsentTextTest" finished-at="2024-08-18T15:49:58Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAepsConsentTextTest -->
+        <test-method signature="clickAepsCheckBoxTest()[pri:13, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:58Z" name="clickAepsCheckBoxTest" finished-at="2024-08-18T15:49:58Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAepsCheckBoxTest -->
+        <test-method signature="clickPhoneSubmitCTATest()[pri:14, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:58Z" name="clickPhoneSubmitCTATest" finished-at="2024-08-18T15:49:58Z" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPhoneSubmitCTATest -->
+        <test-method signature="getMobileOtpScreenTest()[pri:15, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:58Z" name="getMobileOtpScreenTest" finished-at="2024-08-18T15:49:58Z" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMobileOtpScreenTest -->
+        <test-method signature="enterOtpTextfield1Test()[pri:16, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:58Z" name="enterOtpTextfield1Test" finished-at="2024-08-18T15:49:59Z" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOtpTextfield1Test -->
+        <test-method signature="enterOtpTextfield2Test()[pri:17, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:59Z" name="enterOtpTextfield2Test" finished-at="2024-08-18T15:49:59Z" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOtpTextfield2Test -->
+        <test-method signature="enterOtpTextfield3Test()[pri:18, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:59Z" name="enterOtpTextfield3Test" finished-at="2024-08-18T15:49:59Z" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOtpTextfield3Test -->
+        <test-method signature="enterOtpTextfield4Test()[pri:19, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:59Z" name="enterOtpTextfield4Test" finished-at="2024-08-18T15:49:59Z" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOtpTextfield4Test -->
+        <test-method signature="enterOtpTextfield5Test()[pri:20, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:59Z" name="enterOtpTextfield5Test" finished-at="2024-08-18T15:49:59Z" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOtpTextfield5Test -->
+        <test-method signature="enterOtpTextfield6Test()[pri:21, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:49:59Z" name="enterOtpTextfield6Test" finished-at="2024-08-18T15:49:59Z" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterOtpTextfield6Test -->
+        <test-method signature="clickOnOtpSubmitCTATest()[pri:22, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:50:00Z" name="clickOnOtpSubmitCTATest" finished-at="2024-08-18T15:50:01Z" duration-ms="1332" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button data-testid="WEB-AND_ONBRD_MOB-OTP_SBMT-BTN" class="text-text-base rounded-md text-md p-3 font-nunitoSansRegular w-full fontInterRegular fontSize14 bgOrange ">...</button> is not clickable at point (1324, 596). Other element would receive the click: <div class="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">...</div>
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7628578f2860984ac461691877f83014, clickElement {id=f.F786A13BE633FFA2994DF7FCE8F695F6.d.4A5C4DAF8175785CC6605D0EED8FD140.e.69}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\ARUNKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63762/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7628578f2860984ac461691877f83014)] -> xpath: //button[@data-testid = "WEB-AND_ONBRD_MOB-OTP_SBMT-BTN"]]
+Session ID: 7628578f2860984ac461691877f83014]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button data-testid="WEB-AND_ONBRD_MOB-OTP_SBMT-BTN" class="text-text-base rounded-md text-md p-3 font-nunitoSansRegular w-full fontInterRegular fontSize14 bgOrange ">...</button> is not clickable at point (1324, 596). Other element would receive the click: <div class="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">...</div>
+  (Session info: chrome=127.0.6533.120)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7628578f2860984ac461691877f83014, clickElement {id=f.F786A13BE633FFA2994DF7FCE8F695F6.d.4A5C4DAF8175785CC6605D0EED8FD140.e.69}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\ARUNKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63762/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7628578f2860984ac461691877f83014)] -> xpath: //button[@data-testid = "WEB-AND_ONBRD_MOB-OTP_SBMT-BTN"]]
+Session ID: 7628578f2860984ac461691877f83014
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at uatIndieWeb.Pages.PhoneOtpScreen.clickOnOtpSubmitCTA(PhoneOtpScreen.java:71)
+at uatIndieWeb.Tests.IndieWebTestcasesWiseExecution.clickOnOtpSubmitCTATest(IndieWebTestcasesWiseExecution.java:156)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnOtpSubmitCTATest -->
+        <test-method signature="verifyEnterPanTest()[pri:23, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:50:01Z" name="verifyEnterPanTest" finished-at="2024-08-18T15:51:01Z" duration-ms="60070" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='input']"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7628578f2860984ac461691877f83014, findElement {value=input, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\ARUNKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63762/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7628578f2860984ac461691877f83014]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='input']"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7628578f2860984ac461691877f83014, findElement {value=input, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\ARUNKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63762/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7628578f2860984ac461691877f83014
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at uatIndieWeb.Pages.PanScreen.enterPan(PanScreen.java:39)
+at uatIndieWeb.Tests.IndieWebTestcasesWiseExecution.verifyEnterPanTest(IndieWebTestcasesWiseExecution.java:167)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnterPanTest -->
+        <test-method signature="verifyClickOnPanSubmitCTATest()[pri:24, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:51:01Z" name="verifyClickOnPanSubmitCTATest" finished-at="2024-08-18T15:52:01Z" duration-ms="60039" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-testid = "WEB-AND_ONBRD_ENTR-PAN_SBMT-BTN"]"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7628578f2860984ac461691877f83014, findElement {value=//button[@data-testid = "WEB-AND_ONBRD_ENTR-PAN_SBMT-BTN"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\ARUNKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63762/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7628578f2860984ac461691877f83014]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-testid = "WEB-AND_ONBRD_ENTR-PAN_SBMT-BTN"]"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7628578f2860984ac461691877f83014, findElement {value=//button[@data-testid = "WEB-AND_ONBRD_ENTR-PAN_SBMT-BTN"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\ARUNKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63762/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7628578f2860984ac461691877f83014
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at uatIndieWeb.Pages.PanScreen.clickOnPanSubmitCTA(PanScreen.java:45)
+at uatIndieWeb.Tests.IndieWebTestcasesWiseExecution.verifyClickOnPanSubmitCTATest(IndieWebTestcasesWiseExecution.java:172)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnPanSubmitCTATest -->
+        <test-method signature="verifyInputAdhaarfield1Test()[pri:25, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:01Z" name="verifyInputAdhaarfield1Test" finished-at="2024-08-18T15:52:01Z" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputAdhaarfield1Test -->
+        <test-method signature="verifyInputAdhaarfield2Test()[pri:26, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:01Z" name="verifyInputAdhaarfield2Test" finished-at="2024-08-18T15:52:01Z" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputAdhaarfield2Test -->
+        <test-method signature="verifyInputAdhaarfield3Test()[pri:27, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:01Z" name="verifyInputAdhaarfield3Test" finished-at="2024-08-18T15:52:01Z" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputAdhaarfield3Test -->
+        <test-method signature="verifyInputAdhaarfield4Test()[pri:28, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:01Z" name="verifyInputAdhaarfield4Test" finished-at="2024-08-18T15:52:02Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputAdhaarfield4Test -->
+        <test-method signature="verifyInputAdhaarfield5Test()[pri:29, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:02Z" name="verifyInputAdhaarfield5Test" finished-at="2024-08-18T15:52:02Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputAdhaarfield5Test -->
+        <test-method signature="verifyInputAdhaarfield6Test()[pri:30, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:02Z" name="verifyInputAdhaarfield6Test" finished-at="2024-08-18T15:52:02Z" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputAdhaarfield6Test -->
+        <test-method signature="verifyInputAdhaarfield7Test()[pri:31, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:02Z" name="verifyInputAdhaarfield7Test" finished-at="2024-08-18T15:52:02Z" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputAdhaarfield7Test -->
+        <test-method signature="verifyInputAdhaarfield8Test()[pri:32, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:02Z" name="verifyInputAdhaarfield8Test" finished-at="2024-08-18T15:52:02Z" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputAdhaarfield8Test -->
+        <test-method signature="verifyInputAdhaarfield9Test()[pri:33, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:02Z" name="verifyInputAdhaarfield9Test" finished-at="2024-08-18T15:52:02Z" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputAdhaarfield9Test -->
+        <test-method signature="verifyInputAdhaarfield10Test()[pri:34, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:02Z" name="verifyInputAdhaarfield10Test" finished-at="2024-08-18T15:52:02Z" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputAdhaarfield10Test -->
+        <test-method signature="verifyInputAdhaarfield11Test()[pri:35, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:03Z" name="verifyInputAdhaarfield11Test" finished-at="2024-08-18T15:52:03Z" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputAdhaarfield11Test -->
+        <test-method signature="verifyInputAdhaarfield121Test()[pri:36, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:03Z" name="verifyInputAdhaarfield121Test" finished-at="2024-08-18T15:52:03Z" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputAdhaarfield121Test -->
+        <test-method signature="verifyInputDOBAtAdhaarScreenTest()[pri:37, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:52:03Z" name="verifyInputDOBAtAdhaarScreenTest" finished-at="2024-08-18T15:53:03Z" duration-ms="60071" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()="DOB"]"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7628578f2860984ac461691877f83014, findElement {value=//label[text()="DOB"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\ARUNKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63762/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7628578f2860984ac461691877f83014]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()="DOB"]"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7628578f2860984ac461691877f83014, findElement {value=//label[text()="DOB"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\ARUNKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63762/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7628578f2860984ac461691877f83014
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at uatIndieWeb.Pages.AadhaarScreen.inputDOB(AadhaarScreen.java:126)
+at uatIndieWeb.Tests.IndieWebTestcasesWiseExecution.verifyInputDOBAtAdhaarScreenTest(IndieWebTestcasesWiseExecution.java:245)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInputDOBAtAdhaarScreenTest -->
+        <test-method signature="verifySelectBirthYearFromCalenderTest()[pri:38, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:53:03Z" name="verifySelectBirthYearFromCalenderTest" finished-at="2024-08-18T15:54:03Z" duration-ms="60101" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".react\-datepicker__year\-select"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7628578f2860984ac461691877f83014, findElement {value=react-datepicker__year-select, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\ARUNKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63762/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7628578f2860984ac461691877f83014]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".react\-datepicker__year\-select"}
+  (Session info: chrome=127.0.6533.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7628578f2860984ac461691877f83014, findElement {value=react-datepicker__year-select, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.120, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Users\ARUNKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63762/devtoo..., se:cdpVersion: 127.0.6533.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7628578f2860984ac461691877f83014
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at uatIndieWeb.Pages.AadhaarScreen.selectBirthYear(AadhaarScreen.java:130)
+at uatIndieWeb.Tests.IndieWebTestcasesWiseExecution.verifySelectBirthYearFromCalenderTest(IndieWebTestcasesWiseExecution.java:250)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectBirthYearFromCalenderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uatIndieWeb.Tests.IndieWebTestcasesWiseExecution@56bca85b]" started-at="2024-08-18T15:54:03Z" name="tearDown" finished-at="2024-08-18T15:54:05Z" duration-ms="2229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:14Z" name="setUp" finished-at="2022-10-15T05:28:29Z" duration-ms="15967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="searchTest()[pri:2, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:29Z" name="searchTest" finished-at="2022-10-15T05:28:30Z" duration-ms="277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:30Z" name="tearDown" finished-at="2022-10-15T05:28:30Z" duration-ms="581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:30Z" name="setUp" finished-at="2022-10-15T05:28:42Z" duration-ms="11742" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="logoTest()[pri:3, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:42Z" name="logoTest" finished-at="2022-10-15T05:28:42Z" duration-ms="137" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNgSession.AmazonTest1@6f53b8a]" started-at="2022-10-15T05:28:42Z" name="tearDown" finished-at="2022-10-15T05:28:43Z" duration-ms="523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestNgSession.AmazonTest1 -->
+      </class> <!-- uatIndieWeb.Tests.IndieWebTestcasesWiseExecution -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

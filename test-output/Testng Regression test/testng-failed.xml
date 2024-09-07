@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="3" parallel="tests" name="Failed suite [Testng Regression test]" guice-stage="DEVELOPMENT" verbose="10">
-  <test thread-count="3" parallel="tests" name="Amazon test(failed)" verbose="10">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="https://www.amazon.com"/>
+  <test thread-count="3" parallel="tests" name="Google test(failed)" verbose="10">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://www.google.com"/>
     <classes>
-      <class name="TestCases.AmazonTest">
+      <class name="TestCases.GogleTest">
         <methods>
-          <include name="searchTest"/>
           <include name="pageTitleTest"/>
-          <include name="logoTest"/>
+          <include name="searchTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.AmazonTest -->
+      </class> <!-- TestCases.GogleTest -->
     </classes>
-  </test> <!-- Amazon test(failed) -->
-  <test thread-count="3" parallel="tests" name="OpenCart test(failed)" verbose="10">
-    <parameter name="browser" value="edge"/>
-    <parameter name="url" value="https://naveenautomationlabs.com/opencart/index.php?route=account/login"/>
-    <classes>
-      <class name="TestCases.OpenCartTest">
-        <methods>
-          <include name="searchTest"/>
-          <include name="pageTitleTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- TestCases.OpenCartTest -->
-    </classes>
-  </test> <!-- OpenCart test(failed) -->
+  </test> <!-- Google test(failed) -->
 </suite> <!-- Failed suite [Testng Regression test] -->

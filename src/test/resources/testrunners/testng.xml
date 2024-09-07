@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="tests" thread-count="1" parallel="tests" verbose="4">
+
+
+	<listeners>
+
+
+		<listener
+			class-name="uatIndieWeb.ExtentReportsListener.ExtentReportListener" />
+
+	</listeners>
+
+
+	<test name="WebCarausalScreenTest">
+		<classes>
+			<class name="uatIndieWeb.Tests.IndieWebTestcasesWiseExecution" />
+		</classes>
+
+	</test>
+
+
+	<!--<test name="MobileScreenTest">
+		<classes>
+			<class name="uatIndieWeb.Tests.MobileScreenTest" />
+		</classes>
+
+	</test>
+
+
+	<test name="PhoneOtpScreenTest">
+		<classes>
+			<class name="uatIndieWeb.Tests.PhoneOtpScreenTest" />
+		</classes>
+
+	</test>-->
+
+
+</suite>
